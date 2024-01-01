@@ -1,0 +1,209 @@
+/*css ng mga nangarap gawin ang bike powered generator 
+
+responsible for coding:
+
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Nav bar stats mostly including the design */
+.icon {
+    height: 50px;
+    width: 50px;
+}
+li, a {
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* overall design is fine, if changes needs to be done adjust everything. */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:40px 100px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    filter: none;
+    background-color: white;
+    z-index: 10000; /* dont change as it is linked to javascripts sticky window function */
+    transition: all 300ms ease-in-out;
+} 
+
+.logo {
+    cursor: pointer;
+    margin: right; /* for the website's logo design. */
+}
+
+.navlink {
+    list-style: none;
+    margin: left;
+    letter-spacing: 2px;
+}
+
+.navlink li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+/* mostly transitions para astig */ 
+.navlink li a{
+    padding: 10px 25px;
+    background-color: lightgrey;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.navlink a:hover,
+nav a.active{
+    color: white;
+}
+
+/* scroll transitions */ 
+
+.scroll-down header {
+    transform: translate3d(0, -100%, 0)
+}
+
+.scroll-up header {
+    filter: drop-shadow(0 -10px 20px rgb(170, 170, 170));
+}
+
+
+/* 
+Homa page
+
+For the first page content w design 
+
+noteable stuff = VH needs changes if change design eg:
+padding
+height
+
+width is fine since its fixed. Uncontented on how it looks as of now changes may apply.
+
+position ewan, change if naloko na */
+
+.content1 { 
+    text-align: center;
+    margin: auto;
+    padding-bottom: 19vh;
+    padding: 30px;
+    width: 80%;
+    font-size: 25px;
+    padding-top: 234px;
+}
+
+.contento1 {
+    text-align: center;
+    margin: auto;
+    top: 500px;  /*position for the box */
+    padding: 50px;
+    background-color: lightgrey;
+    position: absolute;
+    bottom: 30vh; /* covers the titlep2 */
+    left: 50%;
+    width: 50%; 
+    height: 30%;
+    transform: translateX(-50%);  /* box position change if design changes then change lahat */
+    z-index: 99; /* index for box placements or designs covers (1 n 0) change if needed*/
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+
+/* content 2 product page here */
+/* inclusion of p2 title and design index for p1*/ 
+.design1nt2 {
+    color: white;
+    text-align: center;
+    background-color: #454545;
+    position: relative;
+    bottom: -140px;
+    left: 0;
+    width: 100%;
+    height: 50vh; /*vh changeable incase of some changes */
+    z-index: 70; /* here pag kakapatongs */
+}
+
+.p2atitle{
+    font-size: 48px;
+}
+.p2{
+    padding-top: 1;
+}
+
+.pic2{
+    padding-top: 10vh;
+    text-align: center;
+    position: relative;
+}
+
+.productcontent{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+/* entirety design of the description for page 2 of product page */
+.desc1{
+    border-collapse: collapse;
+    border: none;
+    width: 100%;
+}
+
+.desc1 td{
+    text-align: center;
+    border-right: solid 3px;
+    background-color: lightgrey;
+    padding-left: 50px;    
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.desc1 a{
+    font-size: 20px;
+}
+
+.table1design{  
+    padding-top: 155px;
+}
+
+.desc1 .nodesign {
+    border-right: none;
+}
+
+/* arrow arrow product page */
+.p2btitle{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 1vh;
+    font-weight: bold;
+}
+
+.bikevids{
+    text-align: center;
+}
+
+/* audio n visual product page */
+.p2ctitle{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 1vh;
+    padding: 50px;
+    font-weight: bold;
+    background-color: lightgrey;
+}
+
+
+/* content 3 starts here */
