@@ -78,6 +78,9 @@ nav a.active{
 }
 
 
+
+
+
 /* 
 Homa page
 
@@ -117,9 +120,13 @@ position ewan, change if naloko na */
     font-size: 15px;
     letter-spacing: 1px;
 }
+/* end of p1 home here */
 
 
-/* content 2 product page here */
+
+
+
+/* start content 2 product page here */
 /* inclusion of p2 title and design index for p1*/ 
 .design1nt2 {
     color: white;
@@ -204,6 +211,11 @@ position ewan, change if naloko na */
 .p2cimg{
     text-align: center;
 }
+/* end of p2 product page */ 
+
+
+
+
 /* content 3 starts here */
 
 .aboutusa{
@@ -212,7 +224,6 @@ position ewan, change if naloko na */
     font-weight: bold;
     padding-top: 69px; /* ibahin pag malaki masyado vid */
 }
-
 
 /* jairus 2x2 sana */ 
 .aj {
@@ -280,6 +291,10 @@ position ewan, change if naloko na */
     font-size: 20px;
     padding-bottom: 169px;
 }    
+/* end of p3 about us */ 
+
+
+
 
 
 /* additional info / contacts */ 
@@ -318,3 +333,4 @@ position ewan, change if naloko na */
     padding: 100px;
     background-color: lightgrey;
 }
+/*end of extra infos */
