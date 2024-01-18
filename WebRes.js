@@ -62,7 +62,7 @@ document.querySelectorAll('header nav a').forEach(anchor => { //selector, aka ta
                 const startTime = performance.now();
                 const animateScroll = () => {
 
-                    //calculation ditu (time specifically)
+                    //calculation ditu (time specifically) pra don sa animation 
                     const currentTime = performance.now();
                     const timeElapsed = currentTime - startTime;
                     const easedPosition = ease(timeElapsed / duration) * (end - start) + start; 

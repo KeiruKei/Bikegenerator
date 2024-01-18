@@ -79,10 +79,8 @@ nav a.active{
 
 
 
-
-
 /* 
-Homa page
+Homae page
 
 For the first page content w design 
 
@@ -217,8 +215,12 @@ position ewan, change if naloko na */
     background-color: lightgrey;
 }
 
-.p2cimg{
+.p2cvid{
     text-align: center;
+}
+
+.p2cvideo video{
+    outline: none;
 }
 /* end of audionvisual */
 /* end of p2 product page 3*/ 
@@ -284,6 +286,14 @@ position ewan, change if naloko na */
  margin: 0;
 }
 
+.kykjjl .kykjjl2{
+    margin-left: 20px;
+}
+
+.kykjjl .kykjjl2 .Vhasty{
+    margin-left: 17px;
+}
+
 .kykjjl li p {
  margin-top: 5px;
  font-weight: bold;
@@ -292,6 +302,11 @@ position ewan, change if naloko na */
  width: 100%; 
  white-space: nowrap; 
  overflow: visible; 
+}
+
+.aj img,
+.kykjjl li img {
+    border: 2px solid black;
 }
 
 /* end of kykjjl*/
