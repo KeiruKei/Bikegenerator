@@ -85,3 +85,17 @@ document.querySelectorAll('header nav a').forEach(anchor => { //selector, aka ta
         }
     });
 });
+
+
+//hover parts pra sa descriiptions n name
+
+function showDescription(descClass) {
+    var description = document.querySelector("." + descClass);
+    description.classList.add("show");
+}
+
+function hideDescription(descClass) {
+    var description = document.querySelector("." + descClass);
+    description.classList.remove("show");
+}
+
